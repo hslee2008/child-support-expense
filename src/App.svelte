@@ -228,7 +228,7 @@
   </div>
 </main>
 
-<Footer class="absolute bottom-0 left-0 z-20 w-full pb-3">
+<Footer class="w-full mt-12 pb-3">
   <GradientButton color="cyan" href="https://slfamily.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=9654&gubun=41">
     <LinkOutline class="mr-2" /> 서울가정법원 양육비 산정기준표 안내
   </GradientButton>
