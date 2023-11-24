@@ -1,4 +1,5 @@
 <script>
+  import { GoogleAnalytics } from '@beyonk/svelte-google-analytics'
   import {
     GradientButton,
     ButtonGroup,
@@ -14,6 +15,7 @@
     Footer,
   } from "flowbite-svelte";
   import { LinkOutline } from "flowbite-svelte-icons";
+  
 
   import { toReadableMoney } from "./utils/number";
   import { calculateAge } from "./utils/date";
@@ -79,6 +81,8 @@
     }
   }
 </script>
+
+<GoogleAnalytics properties={["G-7ZHKHQVKNH"]} />
 
 <p>양육비 산정기준표</p>
 <h1>자녀 양육비 계산기</h1>
