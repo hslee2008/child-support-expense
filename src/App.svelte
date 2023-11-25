@@ -1,11 +1,15 @@
 <script>
   import { Router, Route } from "svelte-routing";
 
+  import { registerSW } from './utils/register-sw'
+
   import CSE from "./pages/cse.svelte";
   import CseExplanation from "./pages/cse-explanation.svelte";
   import Home from "./pages/home.svelte";
 
   export let url = "";
+
+  registerSW()
 </script>
 
 <Router {url}>
