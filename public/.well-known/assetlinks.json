@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.web.child_support_expanse.twa",
+      "sha256_cert_fingerprints": [
+        "EB:05:7F:24:24:A3:86:D0:39:18:17:0E:A4:D9:9B:64:57:B7:E3:DD:52:6F:7F:62:54:52:74:1B:2F:25:11:5B"
+      ]
+    }
+  }
+]
