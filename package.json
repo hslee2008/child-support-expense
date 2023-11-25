@@ -10,6 +10,7 @@
     "deploy": "yarn build && firebase deploy"
   },
   "devDependencies": {
+    "@bubblewrap/cli": "^1.21.0",
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
