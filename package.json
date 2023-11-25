@@ -22,6 +22,9 @@
     "@beyonk/svelte-google-analytics": "^2.6.4",
     "flowbite": "^2.2.0",
     "flowbite-svelte": "^0.44.19",
-    "flowbite-svelte-icons": "^0.4.5"
+    "flowbite-svelte-icons": "^0.4.5",
+    "svelte-pdf": "^1.0.20",
+    "svelte-pdf-viewer": "^1.0.0",
+    "svelte-routing": "^2.9.0"
   }
 }
