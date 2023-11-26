@@ -1,0 +1,20 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.web.child_support_expense.twa",
+      "sha256_cert_fingerprints": [
+        "EB:05:7F:24:24:A3:86:D0:39:18:17:0E:A4:D9:9B:64:57:B7:E3:DD:52:6F:7F:62:54:52:74:1B:2F:25:11:5B",
+        "89:4D:B5:32:34:26:0E:00:B6:43:2F:43:7E:7A:9B:D5:B1:1B:E7:19:14:C4:B3:A2:73:4C:F1:65:18:5B:83:F2"
+      ]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.web.child_support_expense.twa"
+    }
+  }
+]

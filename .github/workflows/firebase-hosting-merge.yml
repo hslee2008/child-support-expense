@@ -17,4 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CHILD_SUPPORT_EXPANSE }}'
           channelId: live
-          projectId: child-support-expanse
+          projectId: child-support-expense

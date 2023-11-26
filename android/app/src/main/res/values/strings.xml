@@ -28,7 +28,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://child-support-expanse.web.app\"
+            \"site\": \"https://child-support-expense.web.app\"
         }
     }]
     

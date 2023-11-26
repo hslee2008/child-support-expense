@@ -1,31 +1,31 @@
 {
-  "name": "child-support-expanse",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "yarn build && firebase deploy"
-  },
-  "devDependencies": {
-    "@bubblewrap/cli": "^1.21.0",
-    "@sveltejs/vite-plugin-svelte": "^2.4.2",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "postcss-load-config": "^4.0.1",
-    "svelte": "^4.2.3",
-    "tailwindcss": "^3.3.2",
-    "vite": "^5.0.0"
-  },
-  "dependencies": {
-    "@beyonk/svelte-google-analytics": "^2.6.4",
-    "flowbite": "^2.2.0",
-    "flowbite-svelte": "^0.44.19",
-    "flowbite-svelte-icons": "^0.4.5",
-    "svelte-pdf": "^1.0.20",
-    "svelte-pdf-viewer": "^1.0.0",
-    "svelte-routing": "^2.9.0"
-  }
+	"name": "child-support-expense",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.24",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^3.0.0",
+		"prettier-plugin-tailwindcss": "^0.4.1",
+		"svelte": "^4.2.7",
+		"tailwindcss": "^3.3.2",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@beyonk/svelte-google-analytics": "^2.6.4",
+		"flowbite": "^2.2.0",
+		"flowbite-svelte": "^0.44.20",
+		"flowbite-svelte-icons": "^0.4.5"
+	}
 }
