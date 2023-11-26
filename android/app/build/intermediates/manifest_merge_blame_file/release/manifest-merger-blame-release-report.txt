@@ -22,7 +22,7 @@
 22     the abbreviated format.
 23-->
 24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-25    package="app.web.child_support_expense.twa"
+25    package="app.web.child_support_expanse.twa"
 26    android:versionCode="3"
 27    android:versionName="3" >
 28
@@ -56,7 +56,7 @@
 44
 45    <application
 45-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:35:5-184:19
-46        android:name="app.web.child_support_expense.twa.Application"
+46        android:name="app.web.child_support_expanse.twa.Application"
 46-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:36:9-35
 47        android:allowBackup="true"
 47-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:37:9-35
@@ -103,7 +103,7 @@
 68        </activity>
 69        <activity
 69-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:72:9-145:20
-70            android:name="app.web.child_support_expense.twa.LauncherActivity"
+70            android:name="app.web.child_support_expanse.twa.LauncherActivity"
 70-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:72:19-50
 71            android:alwaysRetainTaskState="true"
 71-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:73:13-49
@@ -258,7 +258,7 @@
 147
 148        <service
 148-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:162:9-177:19
-149            android:name="app.web.child_support_expense.twa.DelegationService"
+149            android:name="app.web.child_support_expanse.twa.DelegationService"
 149-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:163:13-46
 150            android:enabled="@bool/enableNotification"
 150-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:164:13-55

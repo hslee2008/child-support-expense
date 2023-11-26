@@ -114,9 +114,9 @@
 # The proguard configuration file for the following section is C:\Users\user\Desktop\code\child-support-expense\android\app\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.core.content.FileProvider { <init>(); }
--keep class app.web.child_support_expense.twa.Application { <init>(); }
--keep class app.web.child_support_expense.twa.DelegationService { <init>(); }
--keep class app.web.child_support_expense.twa.LauncherActivity { <init>(); }
+-keep class app.web.child_support_expanse.twa.Application { <init>(); }
+-keep class app.web.child_support_expanse.twa.DelegationService { <init>(); }
+-keep class app.web.child_support_expanse.twa.LauncherActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.FocusActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity { <init>(); }

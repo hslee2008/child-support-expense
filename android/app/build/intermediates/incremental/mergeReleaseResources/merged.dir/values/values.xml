@@ -118,7 +118,7 @@
     <string name="manage_space_not_supported_toast">This app\'s data is stored in %1$s.</string>
     <string name="no_provider_toast">Please install Chrome Stable 72 or later.</string>
     <string name="orientation" translatable="false">any</string>
-    <string name="providerAuthority" translatable="false">app.web.child_support_expense.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">app.web.child_support_expanse.twa.fileprovider</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="update_chrome_toast">Please update to Chrome Stable 72 or later.</string>
     <string name="webManifestUrl" translatable="false">https://child-support-expense.web.app/manifest.json</string>

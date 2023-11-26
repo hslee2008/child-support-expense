@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "app.web.child_support_expense.twa",
+  "applicationId": "app.web.child_support_expanse.twa",
   "variantName": "release",
   "elements": [
     {

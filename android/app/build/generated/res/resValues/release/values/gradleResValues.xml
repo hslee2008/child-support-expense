@@ -38,7 +38,7 @@
     <!-- Value from default config. -->
     <string name="orientation" translatable="false">any</string>
     <!-- Value from default config. -->
-    <string name="providerAuthority" translatable="false">app.web.child_support_expense.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">app.web.child_support_expanse.twa.fileprovider</string>
     <!-- Value from default config. -->
     <integer name="splashScreenFadeOutDuration">300</integer>
     <!-- Value from default config. -->

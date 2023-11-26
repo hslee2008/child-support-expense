@@ -22,7 +22,7 @@
      the abbreviated format.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.web.child_support_expense.twa"
+    package="app.web.child_support_expanse.twa"
     android:versionCode="3"
     android:versionName="3" >
 
@@ -43,7 +43,7 @@
     </queries>
 
     <application
-        android:name="app.web.child_support_expense.twa.Application"
+        android:name="app.web.child_support_expanse.twa.Application"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
@@ -67,7 +67,7 @@
                 android:value="@string/launchUrl" />
         </activity>
         <activity
-            android:name="app.web.child_support_expense.twa.LauncherActivity"
+            android:name="app.web.child_support_expanse.twa.LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:exported="true"
             android:label="@string/launcherName" >
@@ -146,7 +146,7 @@
         </provider>
 
         <service
-            android:name="app.web.child_support_expense.twa.DelegationService"
+            android:name="app.web.child_support_expanse.twa.DelegationService"
             android:enabled="@bool/enableNotification"
             android:exported="@bool/enableNotification" >
             <meta-data
