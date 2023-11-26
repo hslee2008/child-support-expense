@@ -126,7 +126,7 @@
 </Card>
 
 <Card class="card" style="margin: auto; margin-top: 20px;">
-  <p>자녀 양육비</p>
+  <p>자녀 1인당 양육비</p>
 
   {#if parentIncome.father && parentIncome.mother}
     <h1>{resultIncome}원</h1>
