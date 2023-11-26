@@ -3,11 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<link rel="manifest" href="%sveltekit.assets%/manifest.json" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 		<title>자녀 양육비 계산기</title>
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
 		<div id="app">%sveltekit.body%</div>
+		<script>
+			if ("serviceWorker" in navigator) {
+			  await navigator.serviceWorker.register("sw.js");
+			}
+		</script>
 	</body>
 </html>
