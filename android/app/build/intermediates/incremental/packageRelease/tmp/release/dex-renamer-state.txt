@@ -1,0 +1,4 @@
+#Sun Nov 26 17:25:44 KST 2023
+base.0=C\:\\Users\\user\\Desktop\\code\\child-support-expense\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

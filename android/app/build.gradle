@@ -56,8 +56,8 @@ android {
         applicationId "app.web.child_support_expense.twa"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 2
-        versionName "2"
+        versionCode 3
+        versionName "3"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
