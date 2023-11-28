@@ -13,7 +13,7 @@
 		<div id="app">%sveltekit.body%</div>
 		<script>
 			if ("serviceWorker" in navigator) {
-			  await navigator.serviceWorker.register("sw.js");
+			  navigator.serviceWorker.register("sw.js");
 			}
 		</script>
 	</body>
