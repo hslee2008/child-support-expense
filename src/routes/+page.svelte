@@ -1,5 +1,6 @@
 <script>
 	import { Card } from 'flowbite-svelte';
+	import { Event } from '../utils/event';
 </script>
 
 <div>
@@ -8,37 +9,44 @@
 
 	<br />
 
-	<Card href="/cse" class="mb-16 mx-auto border-4 rounded-3xl">
+	<Card
+		href="/cse"
+		class="mb-16 mx-auto border-4 rounded-3xl"
+		on:click={() => Event('자녀 양육비 계산기')}
+	>
 		<h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 			자녀 양육비 계산기
 		</h5>
 	</Card>
 
-	<Card href="/cse-explanation" class="mb-16 mx-auto border-4 rounded-3xl">
+	<Card
+		href="/cse-explanation"
+		class="mb-16 mx-auto border-4 rounded-3xl"
+		on:click={() => Event('양육비 산정기준표 설명')}
+	>
 		<h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 			양육비 산정기준표 설명
 		</h5>
 	</Card>
 
-	<Card href="https://mannam.scourt.go.kr/index.do" class="mb-16 mx-auto border-4 rounded-3xl">
+	<Card
+		href="https://mannam.scourt.go.kr/index.do"
+		class="mb-16 mx-auto border-4 rounded-3xl"
+		on:click={() => Event('면접교섭센터')}
+	>
 		<h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">면접교섭센터</h5>
 	</Card>
 
 	<Card
 		href="https://slfamily.scourt.go.kr/main/new/Main.work"
 		class="mb-16 mx-auto border-4 rounded-3xl"
+		on:click={() => Event('서울가정법원')}
 	>
 		<h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">서울가정법원</h5>
 	</Card>
 </div>
 
 <style>
-	@media (max-width: 768px) {
-		h1 {
-			font-size: 2rem;
-		}
-	}
-
 	div {
 		position: fixed;
 		width: 100%;
