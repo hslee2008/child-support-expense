@@ -6,4 +6,4 @@
 
 <slot />
 
-<GoogleAnalytics properties={['G-BL6Z0JDBB1']} />
+<GoogleAnalytics properties={['G-BL6Z0JDBB1', 'G-7ZHKHQVKNH']} />

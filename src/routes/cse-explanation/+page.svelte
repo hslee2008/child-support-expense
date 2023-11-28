@@ -1,8 +1,12 @@
 <script>
 	import { Button } from 'flowbite-svelte';
 	import { HomeSolid } from 'flowbite-svelte-icons';
-	import { Event } from '../../utils/Event';
+	import { Event } from '../../utils/event';
 </script>
+
+<svelte:head>
+	<title>양육비 산정기준표 설명</title>
+</svelte:head>
 
 <div
 	class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3"

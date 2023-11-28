@@ -1,5 +1,4 @@
 <script>
-	import { GoogleAnalytics } from '@beyonk/svelte-google-analytics';
 	import {
 		Button,
 		GradientButton,
@@ -74,8 +73,6 @@
 		}
 	}
 </script>
-
-<GoogleAnalytics properties={['G-7ZHKHQVKNH']} />
 
 <p>양육비 산정기준표</p>
 <h1>자녀 양육비 계산기</h1>
