@@ -81,7 +81,7 @@
 
 <Card class="card" style="margin: auto; margin-top: 20px;">
 	<div class="mb-7">
-		<p>자녀 출생년도</p>
+		<p>자녀 생년월일</p>
 		<input
 			type="date"
 			bind:value={birthDateString}
