@@ -14,10 +14,10 @@
 		TableHeadCell,
 		Footer
 	} from 'flowbite-svelte';
-	import { LinkOutline } from 'flowbite-svelte-icons';
+	import { LinkOutline, HomeSolid } from 'flowbite-svelte-icons';
 
-	import { toReadableMoney } from '../../utils/number';
-	import { calculateAge } from '../../utils/date';
+	import { toReadableMoney, moneyOnlyToThousands } from '../../utils/number';
+	import { calculateAge, getMonthDifferenceWithDecimal } from '../../utils/date';
 	import { Event } from '../../utils/event';
 
 	import { table, ageKey, getIncomeKey } from '../../data/child-support-expense';
@@ -28,6 +28,7 @@
 
 	let birthDate, age;
 	let birthDateString = todayString;
+	let monthLeftTill18 = 0;
 
 	let parentIncome = {
 		father: '',
@@ -38,6 +39,7 @@
 	$: {
 		birthDate = new Date(birthDateString);
 		age = calculateAge(birthDate);
+		monthLeftTill18 = getMonthDifferenceWithDecimal(birthDate, new Date(todayString));
 	}
 
 	$: {
@@ -120,12 +122,12 @@
 </Card>
 
 <Card class="card" style="margin: auto; margin-top: 20px;">
-	<p>자녀 1인당 양육비</p>
+	<b>자녀 1인당 양육비</b>
 
 	{#if parentIncome.father && parentIncome.mother}
 		<h1>{resultIncome}원</h1>
 
-		<Table class="mt-3 text-center" shadow>
+		<Table class="mt-4 text-center">
 			<TableHead>
 				<TableHeadCell>부 월 부담액</TableHeadCell>
 				<TableHeadCell>모 월 부담액</TableHeadCell>
@@ -144,6 +146,32 @@
 	{/if}
 </Card>
 
+<Card class="card" style="margin: auto; margin-top: 20px;">
+	<b>양육비 총 계산표</b>
+
+	<p>양육비 지급 기간: {monthLeftTill18}개월</p>
+
+	{#if parentIncome.father && parentIncome.mother}
+		<Table class="text-center">
+			<TableHead>
+				<TableHeadCell>부 부담액 총액</TableHeadCell>
+				<TableHeadCell>모 부담액 총액</TableHeadCell>
+			</TableHead>
+			<TableBody>
+				<TableBodyRow>
+					<TableBodyCell>
+						{moneyOnlyToThousands(daddy * monthLeftTill18)}
+					</TableBodyCell>
+					<TableBodyCell>
+						{moneyOnlyToThousands(mommy * monthLeftTill18)}
+					</TableBodyCell>
+				</TableBodyRow>
+			</TableBody>
+		</Table>
+		<p class="text-xs">천 원 미만 버림</p>
+	{/if}
+</Card>
+
 <Footer class="w-full mt-12 pb-3">
 	<GradientButton
 		color="cyan"
@@ -155,7 +183,8 @@
 
 	<br />
 
-	<Button color="light" href="/" class="mt-2" on:click={() => Event('홈으로 (자녀 양육비 계산기)')}
-		>홈으로</Button
-	>
+	<Button color="light" href="/" class="mt-2" on:click={() => Event('홈으로 (자녀 양육비 계산기)')}>
+		<HomeSolid class="mr-2" />
+		홈으로
+	</Button>
 </Footer>

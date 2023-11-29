@@ -1,6 +1,11 @@
 function toReadableMoney(moneyString: string) {
-  const number = parseInt(moneyString);
-  return `${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원`;
+	const number = parseFloat(moneyString).toFixed(0);
+	return `${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}원`;
 }
 
-export { toReadableMoney };
+function moneyOnlyToThousands(money: number) {
+	const number = Math.round(money / 1000) * 1000;
+	return `${number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}원`;
+}
+
+export { toReadableMoney, moneyOnlyToThousands };
