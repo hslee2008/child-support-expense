@@ -88,8 +88,10 @@
 			min={todayMinus19}
 			max={todayString}
 			step="1"
-			on:change={() => Event('자녀 출생년더 수정')}
+			class="mt-2"
+			on:change={() => Event('자녀 생년월일 수정')}
 		/>
+		<p class="text-sm mt-2">2023년 연도 부분을 클릭하면 선택 가능</p>
 	</div>
 
 	<p>부모 월 소득 (단위: 만 원, <mark>세전</mark>)</p>

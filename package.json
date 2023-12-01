@@ -26,10 +26,8 @@
 	"type": "module",
 	"dependencies": {
 		"@beyonk/svelte-google-analytics": "^2.6.4",
-		"exact-math": "^2.2.3",
 		"flowbite": "^2.2.0",
 		"flowbite-svelte": "^0.44.20",
-		"flowbite-svelte-icons": "^0.4.5",
-		"moneysafe": "^2.2.1"
+		"flowbite-svelte-icons": "^0.4.5"
 	}
 }
