@@ -17,14 +17,16 @@
 	import { LinkOutline, HomeSolid } from 'flowbite-svelte-icons';
 
 	import { toReadableMoney, moneyOnlyToThousands } from '../../utils/number';
-	import { calculateAge, getMonthDifferenceWithDecimal } from '../../utils/date';
+	import { calculateAge, getMonthDifferenceWithDecimal, formatDate } from '../../utils/date';
 	import { Event } from '../../utils/event';
 
 	import { table, ageKey, getIncomeKey } from '../../data/child-support-expense';
 
 	let today = new Date();
-	let todayString = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
-	let todayMinus19 = `${today.getFullYear() - 19}-${today.getMonth() + 1}-${today.getDate()}`;
+	let todayString = formatDate(`${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`);
+	let todayMinus19 = formatDate(
+		`${today.getFullYear() - 19}-${today.getMonth() + 1}-${today.getDate()}`
+	);
 
 	let birthDate, age;
 	let birthDateString = todayString;
@@ -87,11 +89,10 @@
 			bind:value={birthDateString}
 			min={todayMinus19}
 			max={todayString}
-			step="1"
 			class="mt-2"
 			on:change={() => Event('자녀 생년월일 수정')}
 		/>
-		<p class="text-sm mt-2">2023년 연도 부분을 클릭하면 선택 가능</p>
+		<p class="text-sm mt-2">{today.getFullYear()}년을 클릭하면 출생년도 선택 가능</p>
 	</div>
 
 	<p>부모 월 소득 (단위: 만 원, <mark>세전</mark>)</p>

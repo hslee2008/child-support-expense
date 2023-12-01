@@ -15,4 +15,21 @@ function getMonthDifferenceWithDecimal(date1, date2) {
 	return months.toFixed(2);
 }
 
-export { calculateAge, getMonthDifferenceWithDecimal };
+function formatDate(inputDate) {
+	var parts = inputDate.split('-');
+
+	if (parts.length === 3) {
+		var day = parts[2];
+		var month = parts[1];
+		var year = parts[0];
+
+		day = day.length === 1 ? '0' + day : day;
+		month = month.length === 1 ? '0' + month : month;
+
+		return year + '-' + month + '-' + day;
+	}
+
+	return inputDate;
+}
+
+export { calculateAge, getMonthDifferenceWithDecimal, formatDate };
