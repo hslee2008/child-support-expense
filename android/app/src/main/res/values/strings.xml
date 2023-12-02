@@ -16,6 +16,14 @@
 -->
 <resources>
   
+    <string-array name="additional_trusted_origins">
+    
+      <item>https://https://child-support-expense.web.app</item>
+    
+      <item>https://https://child-support-expense.firebaseapp.com</item>
+    
+    </string-array>
+  
 
   <!--
     This variable below expresses the relationship between the app and the site,
@@ -31,6 +39,22 @@
             \"site\": \"https://child-support-expense.web.app\"
         }
     }]
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://https://child-support-expense.web.app\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://https://child-support-expense.firebaseapp.com\"
+          }
+      }]        
     
   </string>  
 </resources>

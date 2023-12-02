@@ -25,14 +25,14 @@ def twaManifest = [
     hostName: 'child-support-expense.web.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: '자녀 양육비 계산기', // The application name.
-    launcherName: '자녀 양육비 계산기', // The name shown on the Android Launcher.
-    themeColor: '#FFFFFF', // The color used for the status bar.
-    themeColorDark: '#000000', // The color used for the dark status bar.
-    navigationColor: '#000000', // The color used for the navigation bar.
-    navigationColorDark: '#000000', // The color used for the dark navbar.
-    navigationDividerColor: '#000000', // The navbar divider color.
-    navigationDividerColorDark: '#000000', // The dark navbar divider color.
-    backgroundColor: '#FFFFFF', // The color used for the splash screen background.
+    launcherName: '양육비 계산기', // The name shown on the Android Launcher.
+    themeColor: '#09D3B7', // The color used for the status bar.
+    themeColorDark: '#09D3B7', // The color used for the dark status bar.
+    navigationColor: '#7777F4', // The color used for the navigation bar.
+    navigationColorDark: '#7777F4', // The color used for the dark navbar.
+    navigationDividerColor: '#7777F4', // The navbar divider color.
+    navigationDividerColorDark: '#7777F4', // The dark navbar divider color.
+    backgroundColor: '#D0CECE', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -41,13 +41,13 @@ def twaManifest = [
     // - icon: Name of the resource in the drawable folder to use as an icon.
     shortcuts: [],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
-    splashScreenFadeOutDuration: 300,
+    splashScreenFadeOutDuration: 400,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
     // The fallback strategy for when Trusted Web Activity is not available. Possible values are
     // 'customtabs' and 'webview'.
     fallbackType: 'customtabs',
     enableSiteSettingsShortcut: 'true',
-    orientation: 'any',
+    orientation: 'portrait',
 ]
 
 android {
@@ -56,8 +56,8 @@ android {
         applicationId "app.web.child_support_expanse.twa"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 3
-        versionName "3"
+        versionCode 4
+        versionName "4"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

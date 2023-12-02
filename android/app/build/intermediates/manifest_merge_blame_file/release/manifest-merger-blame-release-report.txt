@@ -23,8 +23,8 @@
 23-->
 24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 25    package="app.web.child_support_expanse.twa"
-26    android:versionCode="3"
-27    android:versionName="3" >
+26    android:versionCode="4"
+27    android:versionName="4" >
 28
 29    <uses-sdk
 30        android:minSdkVersion="19"
@@ -41,21 +41,21 @@
 36        <intent>
 36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\816850808f9de9e670a4838cd1f96218\androidbrowserhelper-2.5.0\AndroidManifest.xml:27:9-33:18
 37            <action android:name="android.intent.action.VIEW" />
-37-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:17-68
-37-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:25-66
+37-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:17-68
+37-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:25-66
 38
 39            <category android:name="android.intent.category.BROWSABLE" />
-39-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:139:17-77
-39-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:139:27-75
+39-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:17-77
+39-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:27-75
 40
 41            <data android:scheme="https" />
-41-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:17-141:54
-41-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:23-45
+41-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:17-145:54
+41-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:23-45
 42        </intent>
 43    </queries>
 44
 45    <application
-45-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:35:5-184:19
+45-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:35:5-204:19
 46        android:name="app.web.child_support_expanse.twa.Application"
 46-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:36:9-35
 47        android:allowBackup="true"
@@ -102,7 +102,7 @@
 67-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:68:17-50
 68        </activity>
 69        <activity
-69-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:72:9-145:20
+69-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:72:9-165:20
 70            android:name="app.web.child_support_expanse.twa.LauncherActivity"
 70-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:72:19-50
 71            android:alwaysRetainTaskState="true"
@@ -195,97 +195,145 @@
 114-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:124:24-92
 115                android:value="@string/orientation" />
 115-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:125:17-52
-116
-117            <intent-filter>
-117-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:131:13-134:29
-118                <action android:name="android.intent.action.MAIN" />
-118-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:132:17-69
-118-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:132:25-66
+116            <meta-data
+116-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:128:17-130:76
+117                android:name="android.support.customtabs.trusted.ADDITIONAL_TRUSTED_ORIGINS"
+117-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:129:21-97
+118                android:resource="@array/additional_trusted_origins" />
+118-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:130:21-73
 119
-120                <category android:name="android.intent.category.LAUNCHER" />
-120-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:133:17-77
-120-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:133:27-74
-121            </intent-filter>
-122            <intent-filter android:autoVerify="true" >
-122-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:136:13-142:29
-122-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:136:28-53
-123                <action android:name="android.intent.action.VIEW" />
-123-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:17-68
-123-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:25-66
-124
-125                <category android:name="android.intent.category.DEFAULT" />
-125-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:138:17-76
-125-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:138:27-73
-126                <category android:name="android.intent.category.BROWSABLE" />
-126-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:139:17-77
-126-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:139:27-75
+120            <intent-filter>
+120-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:135:13-138:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:136:17-69
+121-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:136:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:17-77
+123-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:137:27-74
+124            </intent-filter>
+125            <intent-filter android:autoVerify="true" >
+125-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:13-146:29
+125-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:28-53
+126                <action android:name="android.intent.action.VIEW" />
+126-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:17-68
+126-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:25-66
 127
-128                <data
-128-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:17-141:54
-129                    android:host="@string/hostName"
-129-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:21-52
-130                    android:scheme="https" />
-130-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:140:23-45
-131            </intent-filter>
-132        </activity>
-133        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-133-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:147:9-90
-133-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:147:19-87
-134        <activity
-134-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:149:9-150:62
-135            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-135-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:149:19-97
-136            android:configChanges="orientation|screenSize" />
-136-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:150:13-59
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:17-76
+128-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:17-77
+129-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:27-75
+130
+131                <data
+131-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:17-145:54
+132                    android:host="@string/hostName"
+132-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:145:21-52
+133                    android:scheme="https" />
+133-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:23-45
+134            </intent-filter>
+135            <intent-filter android:autoVerify="true" >
+135-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:149:17-155:33
+135-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:149:32-57
+136                <action android:name="android.intent.action.VIEW" />
+136-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:17-68
+136-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:25-66
 137
-138        <provider
-138-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:152:9-160:20
-139            android:name="androidx.core.content.FileProvider"
-139-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:153:13-62
-140            android:authorities="@string/providerAuthority"
-140-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:154:13-60
-141            android:exported="false"
-141-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:156:13-37
-142            android:grantUriPermissions="true" >
-142-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:155:13-47
-143            <meta-data
-143-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:157:13-159:53
-144                android:name="android.support.FILE_PROVIDER_PATHS"
-144-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:158:17-67
-145                android:resource="@xml/filepaths" />
-145-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:159:17-50
-146        </provider>
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:17-76
+138-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:27-73
+139                <category android:name="android.intent.category.BROWSABLE" />
+139-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:17-77
+139-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:27-75
+140
+141                <data
+141-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:17-145:54
+142                    android:host="https://child-support-expense.web.app"
+142-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:145:21-52
+143                    android:scheme="https" />
+143-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:23-45
+144            </intent-filter>
+145            <intent-filter android:autoVerify="true" >
+145-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:157:17-163:33
+145-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:157:32-57
+146                <action android:name="android.intent.action.VIEW" />
+146-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:17-68
+146-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:141:25-66
 147
-148        <service
-148-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:162:9-177:19
-149            android:name="app.web.child_support_expanse.twa.DelegationService"
-149-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:163:13-46
-150            android:enabled="@bool/enableNotification"
-150-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:164:13-55
-151            android:exported="@bool/enableNotification" >
-151-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:165:13-56
-152            <meta-data
-152-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:168:17-170:73
-153                android:name="android.support.customtabs.trusted.SMALL_ICON"
-153-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:169:21-81
-154                android:resource="@drawable/ic_notification_icon" />
-154-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:170:21-70
-155
-156            <intent-filter>
-156-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:173:13-176:29
-157                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-157-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:174:17-105
-157-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:174:25-103
-158
-159                <category android:name="android.intent.category.DEFAULT" />
-159-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:138:17-76
-159-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:138:27-73
-160            </intent-filter>
-161        </service>
-162
-163        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-163-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:180:13-118
-163-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:180:23-115
-164    </application>
-165
-166</manifest>
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:17-76
+148-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:17-77
+149-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:143:27-75
+150
+151                <data
+151-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:17-145:54
+152                    android:host="https://child-support-expense.firebaseapp.com"
+152-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:145:21-52
+153                    android:scheme="https" />
+153-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:144:23-45
+154            </intent-filter>
+155        </activity>
+156        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+156-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:167:9-90
+156-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:167:19-87
+157        <activity
+157-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:169:9-170:62
+158            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+158-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:169:19-97
+159            android:configChanges="orientation|screenSize" />
+159-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:170:13-59
+160
+161        <provider
+161-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:172:9-180:20
+162            android:name="androidx.core.content.FileProvider"
+162-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:173:13-62
+163            android:authorities="@string/providerAuthority"
+163-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:174:13-60
+164            android:exported="false"
+164-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:176:13-37
+165            android:grantUriPermissions="true" >
+165-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:175:13-47
+166            <meta-data
+166-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:177:13-179:53
+167                android:name="android.support.FILE_PROVIDER_PATHS"
+167-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:178:17-67
+168                android:resource="@xml/filepaths" />
+168-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:179:17-50
+169        </provider>
+170
+171        <service
+171-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:182:9-197:19
+172            android:name="app.web.child_support_expanse.twa.DelegationService"
+172-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:183:13-46
+173            android:enabled="@bool/enableNotification"
+173-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:184:13-55
+174            android:exported="@bool/enableNotification" >
+174-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:185:13-56
+175            <meta-data
+175-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:188:17-190:73
+176                android:name="android.support.customtabs.trusted.SMALL_ICON"
+176-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:189:21-81
+177                android:resource="@drawable/ic_notification_icon" />
+177-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:190:21-70
+178
+179            <intent-filter>
+179-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:193:13-196:29
+180                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+180-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:194:17-105
+180-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:194:25-103
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:17-76
+182-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:142:27-73
+183            </intent-filter>
+184        </service>
+185
+186        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+186-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:200:13-118
+186-->C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:200:23-115
+187    </application>
+188
+189</manifest>

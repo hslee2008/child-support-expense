@@ -125,6 +125,10 @@
                 android:value="@string/orientation"/>
 
             
+                <meta-data
+                    android:name="android.support.customtabs.trusted.ADDITIONAL_TRUSTED_ORIGINS"
+                    android:resource="@array/additional_trusted_origins" />
+            
 
             
 
@@ -141,6 +145,22 @@
                     android:host="@string/hostName"/>
             </intent-filter>
 
+            
+                <intent-filter android:autoVerify="true">
+                    <action android:name="android.intent.action.VIEW"/>
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE"/>
+                    <data android:scheme="https"
+                        android:host="https://child-support-expense.web.app"/>
+                </intent-filter>
+            
+                <intent-filter android:autoVerify="true">
+                    <action android:name="android.intent.action.VIEW"/>
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE"/>
+                    <data android:scheme="https"
+                        android:host="https://child-support-expense.firebaseapp.com"/>
+                </intent-filter>
             
         </activity>
 

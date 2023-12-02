@@ -1,4 +1,5 @@
 app.web.child_support_expanse.twa
+array additional_trusted_origins
 attr alpha
 attr font
 attr fontProviderAuthority
