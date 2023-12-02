@@ -15,7 +15,7 @@
   "startUrl": "/",
   "iconUrl": "https://child-support-expense.web.app/images/512x512.png",
   "maskableIconUrl": "https://child-support-expense.web.app/images/maskable.png",
-  "splashScreenFadeOutDuration": 400,
+  "splashScreenFadeOutDuration": 600,
   "signingKey": {
     "path": "C:\\Users\\user\\Desktop\\code\\child-support-expense\\android\\android.keystore",
     "alias": "android"

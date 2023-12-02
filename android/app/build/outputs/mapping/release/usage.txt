@@ -700,8 +700,8 @@ androidx.annotation.GuardedBy
 androidx.core.R$integer
 androidx.arch.core.internal.SafeIterableMap$IteratorWithAdditions
 androidx.annotation.InspectableProperty$ValueType
-androidx.core.R
 androidx.core.content.res.FontResourcesParserCompat$FamilyResourceEntry
+androidx.core.R
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat
 androidx.core.view.ViewPropertyAnimatorListenerAdapter
 androidx.core.widget.ListViewAutoScrollHelper
@@ -1065,8 +1065,8 @@ androidx.core.view.accessibility.AccessibilityNodeProviderCompat
 androidx.annotation.AnimatorRes
 androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListenerWrapper
 androidx.versionedparcelable.ParcelField
-androidx.core.content.res.GradientColorInflaterCompat
 androidx.core.content.res.ColorStateListInflaterCompat
+androidx.core.content.res.GradientColorInflaterCompat
 com.google.androidbrowserhelper.trusted.TwaSharedPreferencesManager:
     private static final java.lang.String PREFS_NAME
     private static final java.lang.String KEY_PROVIDER_PACKAGE
@@ -1351,8 +1351,8 @@ androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry
 androidx.versionedparcelable.VersionedParcelStream$1
 androidx.core.view.LayoutInflaterCompat
 com.google.androidbrowserhelper.R$xml
-androidx.core.os.LocaleListCompatWrapper
 androidx.browser.customtabs.CustomTabsService$1
+androidx.core.os.LocaleListCompatWrapper
 androidx.core.view.MotionEventCompat
 androidx.core.view.NestedScrollingChildHelper
 androidx.core.content.pm.ShortcutInfoCompat$Builder

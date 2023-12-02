@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'child-support-expense-v3';
+const CACHE_NAME = 'child-support-expense-v4';
 
 const FILES_TO_CACHE = [
 	'/images/48x48.png',
