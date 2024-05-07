@@ -15,13 +15,13 @@
   "startUrl": "/",
   "iconUrl": "https://child-support-expense.web.app/images/512x512.png",
   "maskableIconUrl": "https://child-support-expense.web.app/images/maskable.png",
-  "splashScreenFadeOutDuration": 600,
+  "splashScreenFadeOutDuration": 400,
   "signingKey": {
     "path": "C:\\Users\\user\\Desktop\\code\\child-support-expense\\android\\android.keystore",
     "alias": "android"
   },
-  "appVersionName": "4",
-  "appVersionCode": 4,
+  "appVersionName": "5",
+  "appVersionCode": 5,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://child-support-expense.web.app/manifest.json",
@@ -42,5 +42,5 @@
     "https://child-support-expense.firebaseapp.com"
   ],
   "retainedBundles": [],
-  "appVersion": "4"
+  "appVersion": "5"
 }

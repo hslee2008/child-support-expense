@@ -17,7 +17,7 @@
 	import { LinkOutline, HomeSolid } from 'flowbite-svelte-icons';
 
 	import { toReadableMoney, moneyOnlyToThousands } from '../../utils/number';
-	import { calculateAge, getMonthDifferenceWithDecimal, formatDate } from '../../utils/date';
+	import { calculateAge, getMonthDifferenceWithDecimalTill19, formatDate } from '../../utils/date';
 	import { Event } from '../../utils/event';
 
 	import { table, ageKey, getIncomeKey } from '../../data/child-support-expense';
@@ -30,7 +30,7 @@
 
 	let birthDate, age;
 	let birthDateString = todayString;
-	let monthLeftTill18 = 0;
+	let monthLeftTill19 = 0;
 
 	let parentIncome = {
 		father: '',
@@ -41,7 +41,7 @@
 	$: {
 		birthDate = new Date(birthDateString);
 		age = calculateAge(birthDate);
-		monthLeftTill18 = getMonthDifferenceWithDecimal(birthDate, new Date(todayString));
+		monthLeftTill19 = getMonthDifferenceWithDecimalTill19(birthDate, new Date(todayString));
 	}
 
 	$: {
@@ -152,7 +152,7 @@
 <Card class="card" style="margin: auto; margin-top: 20px;">
 	<b>양육비 총 계산표</b>
 
-	<p>양육비 지급 기간: {monthLeftTill18}개월</p>
+	<p>양육비 지급 기간: {monthLeftTill19}개월</p>
 
 	{#if parentIncome.father && parentIncome.mother}
 		<Table class="text-center">
@@ -163,10 +163,10 @@
 			<TableBody>
 				<TableBodyRow>
 					<TableBodyCell>
-						{moneyOnlyToThousands(daddy * monthLeftTill18)}
+						{moneyOnlyToThousands(daddy * monthLeftTill19)}
 					</TableBodyCell>
 					<TableBodyCell>
-						{moneyOnlyToThousands(mommy * monthLeftTill18)}
+						{moneyOnlyToThousands(mommy * monthLeftTill19)}
 					</TableBodyCell>
 				</TableBodyRow>
 			</TableBody>

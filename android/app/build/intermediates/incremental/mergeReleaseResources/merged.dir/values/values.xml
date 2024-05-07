@@ -97,7 +97,7 @@
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
-    <integer name="splashScreenFadeOutDuration">600</integer>
+    <integer name="splashScreenFadeOutDuration">400</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="appName" translatable="false">자녀 양육비 계산기</string>
     <string name="app_name">Android Browser Helper</string>

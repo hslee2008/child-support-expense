@@ -4,8 +4,8 @@ function calculateAge(birthday: Date) {
 	return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-function getMonthDifferenceWithDecimal(date1, date2) {
-	const when18 = new Date(date1.getFullYear() + 18, date1.getMonth(), date1.getDate());
+function getMonthDifferenceWithDecimalTill19(date1, date2) {
+	const when18 = new Date(date1.getFullYear() + 19, date1.getMonth(), date1.getDate());
 
 	var months = (when18.getFullYear() - date2.getFullYear()) * 12;
 	months -= date2.getMonth();
@@ -32,4 +32,4 @@ function formatDate(inputDate) {
 	return inputDate;
 }
 
-export { calculateAge, getMonthDifferenceWithDecimal, formatDate };
+export { calculateAge, getMonthDifferenceWithDecimalTill19, formatDate };
