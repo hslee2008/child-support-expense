@@ -16,13 +16,11 @@
 -->
 <resources>
   
-    <string-array name="additional_trusted_origins">
-    
-      <item>https://https://child-support-expense.web.app</item>
-    
-      <item>https://https://child-support-expense.firebaseapp.com</item>
-    
-    </string-array>
+
+  <!--
+    The "fullscreen" and "fullscreen-sticky" TWA manifest values correspond to "immersive" and "sticky-immersive"
+    AndroidManifest values.
+  -->
   
 
   <!--
@@ -39,22 +37,6 @@
             \"site\": \"https://child-support-expense.web.app\"
         }
     }]
-    
-      ,[{
-          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
-          \"target\": {
-              \"namespace\": \"web\",
-              \"site\": \"https://https://child-support-expense.web.app\"
-          }
-      }]        
-    
-      ,[{
-          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
-          \"target\": {
-              \"namespace\": \"web\",
-              \"site\": \"https://https://child-support-expense.firebaseapp.com\"
-          }
-      }]        
     
   </string>  
 </resources>
