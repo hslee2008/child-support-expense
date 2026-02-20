@@ -97,7 +97,7 @@ ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:56:13-49
 	android:name
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:55:13-41
-activity#app.web.child_support_expense.twa.LauncherActivity
+activity#app.web.child_support_expanse.twa.LauncherActivity
 ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:64:9-145:20
 	android:label
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:66:13-49
@@ -249,7 +249,7 @@ ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:159:17-50
 	android:name
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:158:17-67
-service#app.web.child_support_expense.twa.DelegationService
+service#app.web.child_support_expanse.twa.DelegationService
 ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:162:9-177:19
 	android:enabled
 		ADDED from C:\Users\user\Desktop\code\child-support-expense\android\app\src\main\AndroidManifest.xml:164:13-55
@@ -375,7 +375,7 @@ ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\trans
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-permission#app.web.child_support_expense.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#app.web.child_support_expanse.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
@@ -385,7 +385,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-uses-permission#app.web.child_support_expense.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#app.web.child_support_expanse.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] C:\Users\user\.gradle\caches\8.11.1\transforms\a5429f7b20c607b890f08b5283ad4ec0\transformed\core-1.13.0\AndroidManifest.xml:26:22-94

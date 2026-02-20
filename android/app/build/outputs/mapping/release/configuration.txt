@@ -3,9 +3,9 @@
 -keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class app.web.child_support_expense.twa.Application { <init>(); }
--keep class app.web.child_support_expense.twa.DelegationService { <init>(); }
--keep class app.web.child_support_expense.twa.LauncherActivity { <init>(); }
+-keep class app.web.child_support_expanse.twa.Application { <init>(); }
+-keep class app.web.child_support_expanse.twa.DelegationService { <init>(); }
+-keep class app.web.child_support_expanse.twa.LauncherActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.FocusActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.WebViewFallbackActivity { <init>(); }

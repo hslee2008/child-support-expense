@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.web.child_support_expense.twa.app-mergeReleaseResources-23:/values/values.xml",
+            "outputFile": "app.web.child_support_expanse.twa.app-mergeReleaseResources-23:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\Desktop\\code\\child-support-expense\\android\\app\\src\\main\\res\\values\\colors.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.web.child_support_expense.twa.app-mergeReleaseResources-23:/values-as/values-as.xml",
+            "outputFile": "app.web.child_support_expanse.twa.app-mergeReleaseResources-23:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.11.1\\transforms\\be57bd43967b699c12a0f6b8bd2f21c6\\transformed\\browser-1.9.0-alpha04\\res\\values-as\\values-as.xml",

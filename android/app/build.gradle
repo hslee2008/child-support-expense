@@ -21,7 +21,7 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'app.web.child_support_expense.twa',
+    applicationId: 'app.web.child_support_expanse.twa',
     hostName: 'child-support-expense.web.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: '자녀 양육비 계산기', // The application name.
@@ -52,13 +52,13 @@ def twaManifest = [
 
 android {
     compileSdkVersion 36
-    namespace "app.web.child_support_expense.twa"
+    namespace "app.web.child_support_expanse.twa"
     defaultConfig {
-        applicationId "app.web.child_support_expense.twa"
+        applicationId "app.web.child_support_expanse.twa"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 7
-        versionName "7"
+        versionCode 8
+        versionName "8"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

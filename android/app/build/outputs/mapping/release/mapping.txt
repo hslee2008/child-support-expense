@@ -3,8 +3,8 @@
 # min_api: 21
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 665cbac
-# pg_map_hash: SHA-256 665cbac428924c2ff7ca2e036b548b14aaa177c9ad4456611a78e9f230976c50
+# pg_map_id: 22d5a72
+# pg_map_hash: SHA-256 22d5a72d7c8a1a5fbca3868b6b5a623603f3af20374f3a15541b60202f460eea
 android.support.customtabs.ICustomTabsCallback -> a.a:
 # {"id":"sourceFile","fileName":"ICustomTabsCallback.java"}
     java.lang.String DESCRIPTOR -> a
@@ -22667,15 +22667,15 @@ androidx.versionedparcelable.VersionedParcelParcel -> androidx.versionedparcelab
     1:6:void writeBoolean(boolean):181:181 -> y
 androidx.versionedparcelable.VersionedParcelable -> H.a:
 # {"id":"sourceFile","fileName":"VersionedParcelable.java"}
-app.web.child_support_expense.twa.Application -> app.web.child_support_expense.twa.Application:
+app.web.child_support_expanse.twa.Application -> app.web.child_support_expanse.twa.Application:
 # {"id":"sourceFile","fileName":"Application.java"}
     1:4:void <init>():20:20 -> <init>
     1:4:void onCreate():26:26 -> onCreate
-app.web.child_support_expense.twa.DelegationService -> app.web.child_support_expense.twa.DelegationService:
+app.web.child_support_expanse.twa.DelegationService -> app.web.child_support_expanse.twa.DelegationService:
 # {"id":"sourceFile","fileName":"DelegationService.java"}
     1:4:void <init>():5:5 -> <init>
     1:4:void onCreate():9:9 -> onCreate
-app.web.child_support_expense.twa.LauncherActivity -> app.web.child_support_expense.twa.LauncherActivity:
+app.web.child_support_expanse.twa.LauncherActivity -> app.web.child_support_expanse.twa.LauncherActivity:
 # {"id":"sourceFile","fileName":"LauncherActivity.java"}
     1:4:void <init>():25:25 -> <init>
     1:5:android.net.Uri getLaunchingUrl():48:48 -> i

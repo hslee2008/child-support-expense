@@ -29,6 +29,6 @@
     <string name="launchUrl" translatable="false">https://child-support-expense.web.app/</string>
     <string name="launcherName" translatable="false">자녀 양육비 계산기</string>
     <string name="orientation" translatable="false">any</string>
-    <string name="providerAuthority" translatable="false">app.web.child_support_expense.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">app.web.child_support_expanse.twa.fileprovider</string>
     <string name="webManifestUrl" translatable="false">https://child-support-expense.web.app/manifest.json</string>
 </resources>

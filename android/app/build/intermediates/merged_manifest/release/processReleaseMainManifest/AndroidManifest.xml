@@ -22,9 +22,9 @@
      the abbreviated format.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.web.child_support_expense.twa"
-    android:versionCode="7"
-    android:versionName="7" >
+    package="app.web.child_support_expanse.twa"
+    android:versionCode="8"
+    android:versionName="8" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -43,13 +43,13 @@
     </queries>
 
     <permission
-        android:name="app.web.child_support_expense.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="app.web.child_support_expanse.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="app.web.child_support_expense.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="app.web.child_support_expanse.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="app.web.child_support_expense.twa.Application"
+        android:name="app.web.child_support_expanse.twa.Application"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="true"
@@ -68,7 +68,7 @@
             android:value="@string/generatorApp" />
 
         <activity
-            android:name="app.web.child_support_expense.twa.LauncherActivity"
+            android:name="app.web.child_support_expanse.twa.LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:exported="true"
             android:label="@string/launcherName" >
@@ -147,7 +147,7 @@
         </provider>
 
         <service
-            android:name="app.web.child_support_expense.twa.DelegationService"
+            android:name="app.web.child_support_expanse.twa.DelegationService"
             android:enabled="@bool/enableNotification"
             android:exported="@bool/enableNotification" >
             <meta-data
@@ -165,7 +165,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="app.web.child_support_expense.twa.androidx-startup"
+            android:authorities="app.web.child_support_expanse.twa.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

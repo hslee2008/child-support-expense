@@ -4,15 +4,15 @@
     "type": "OPTIMIZED_PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "app.web.child_support_expense.twa",
+  "applicationId": "app.web.child_support_expanse.twa",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 7,
-      "versionName": "7",
+      "versionCode": 8,
+      "versionName": "8",
       "outputFile": "resources-release-optimize.ap_"
     }
   ],
